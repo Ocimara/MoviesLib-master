@@ -58,8 +58,8 @@ class MoviesTableViewController: UITableViewController {
 
         // Configure the cell...
         let movie = movies[indexPath.row]
-        cell.textLabel?.text = movie.title
-        cell.detailTextLabel?.text = movie.summary
+        //cell.textLabel?.text = movie.title
+       // cell.detailTextLabel?.text = movie.summary
                 
         
         return cell
